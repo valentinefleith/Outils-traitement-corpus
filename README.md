@@ -26,3 +26,7 @@ Ce corpus peut réaliser des tâches de classification (reconnaissance des mots,
 
 Ce corpus a déjà servi a quasiment 200 modèles répertoriés sur HuggingFace. Par exemple, plusieurs modèles Nvidia comme NeMo Canary, un modèle d'ASR en 4 langues (Anglais, Allemand, Français, Espagnol) et de traduction de l'Allemand/Français/Espagnol vers l'Anglais et de l'Anglais vers ces 3 langues. Un deuxième modèle Nvidia est Parakeet RNNT 1.1B, qui réalise des tâches de transcription automatique d'extraits audio vers de l'anglais écrit en minuscules.
 Enfin, ce corpus a aussi beaucoup servi pour des modèles Wav2Vec.
+
+## Constitution de mon propre corpus
+
+Le Common Voice est constitué uniquement d'extraits de parole spontanée, j'ai donc pour projet de constituer mon corpus à partir de vidéos YouTube. Pour cela, il faudra que je récupère des URLS ainsi que quelques métadonnées sur les vidéos pour ensuite récupérer l'audio de ces vidéos. 
