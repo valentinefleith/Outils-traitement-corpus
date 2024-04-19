@@ -1,5 +1,6 @@
-from pytube import Playlist, YouTube, Caption 
+from pytube import Playlist, YouTube
 import json
+import whisper
 
 
 def get_urls():
@@ -12,20 +13,46 @@ def get_urls():
     return urls
 
 
+def get_captions_from_audio(video_id):
+    model = whisper.load_model("large-v2")
+    captions = model.transcribe(f"data/audio/{video_id}.mp4")
+    transcription_file_timecode = f"data/transcription/{video_id}_timecodes.txt"
+    transcription_file = f"data/transcription/{video_id}.txt"
+    with open(transcription_file_timecode, "w", encoding="utf-8") as f:
+        for segment in captions["segments"]:
+            start_time = timecode_managing(segment["start"])
+            end_time = timecode_managing(segment["end"])
+            f.write(f"{start_time} - {end_time}: {segment['text']}\n")
+    with open(transcription_file, "w", encoding="utf-8") as f:
+        for segment in captions["segments"]:
+            f.write(f"{segment['text']}\n")
+
+
+def timecode_managing(seconds):
+    h = int(seconds // 3600)
+    m = int((seconds % 3600) // 60)
+    s = int(seconds % 60)
+    return f"{h:02d}:{m:02d}:{s:02d}"
+
+
 def download_video(url):
     vid = YouTube(url)
-
-    print(f"Author : {vid.author}")
-    print(f"Channel_id: {vid.channel_id}")
-    print(f"Length: {vid.length}s")
-    print(f"Publish date: {vid.publish_date}")
-    print(f"Title: {vid.title}")
-    print(f"Views: {vid.views}")
     audio = vid.streams.get_audio_only()
     audio.download(output_path="data/audio", filename=f"{vid.video_id}.mp4")
-    infos = {"id": vid.video_id, "path": f"data/{vid.video_id}.mp4", "sentences": None, "author": vid.author, "channel_id": vid.channel_id, "length": vid.length, "publish_date": str(vid.publish_date), "title": vid.title, "views": vid.views}
+    infos = {
+        "id": vid.video_id,
+        "path": f"data/{vid.video_id}.mp4",
+        "transcription_file": f"data/transcription/{vid.video_id}.txt",
+        "author": vid.author,
+        "channel_id": vid.channel_id,
+        "length": vid.length,
+        "publish_date": str(vid.publish_date),
+        "title": vid.title,
+        "views": vid.views,
+    }
     with open(f"data/metadata/{vid.video_id}.json", "w") as metadata_file:
         json.dump(infos, metadata_file)
+    get_captions_from_audio(vid.video_id)
 
 
 def main():
