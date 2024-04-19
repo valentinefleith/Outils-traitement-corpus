@@ -72,8 +72,19 @@ Concernant la structure finale de mon corpus, je ne peux pas espérer obtenir ex
 Voici donc les métadonnées que je peux collecter :
 - Transcription de l'audio
 - Titre de la vidéo
-- Nom du locuteur (à voir)
-- Description de la vidéo
 - Longueur de la vidéo
 - Date de publication
-- Note moyenne sur la vidéo
+- Auteur de publication
+- Nombre de vues
+
+Toutes ces données ont été enregistrées au format json.
+
+### Transcription de l'audio
+
+J'ai voulu dans un premier temps utiliser la librairie `pytube` pour récupérer la transcription de l'audio, mais avec cette librairie je ne pouvais pas récupérer une transcription automatique.
+
+J'ai donc utilisé `whisper` et son model `utlarge-v2` pour obtenir une transcription. J'ai réalisé 2 fichiers de transcription : le premier qui conserve les timecodes, et le second avec les données brutes. Par la suite je peux envisager de générer une transcription au format `textgrid` qui est bien plus adapté pour travailler sur un corpus oral (potentiellement avec l'outil MFA).
+
+### Ce dépôt
+
+J'ai poussé sur ce dépôt un échantillon de 7 vidéos afin que vous puissiez voir la structure finale que crée mon script, ainsi que le script python qui génère le corpus. Comme vous pouvez le voir, ce script génère cela à partir d'un unique lien (celui vers la playlist youtube).
