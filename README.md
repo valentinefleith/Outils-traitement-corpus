@@ -48,6 +48,32 @@ Ce corpus peut réaliser des tâches de classification (reconnaissance des mots,
 Ce corpus a déjà servi a quasiment 200 modèles répertoriés sur HuggingFace. Par exemple, plusieurs modèles Nvidia comme NeMo Canary, un modèle d'ASR en 4 langues (Anglais, Allemand, Français, Espagnol) et de traduction de l'Allemand/Français/Espagnol vers l'Anglais et de l'Anglais vers ces 3 langues. Un deuxième modèle Nvidia est Parakeet RNNT 1.1B, qui réalise des tâches de transcription automatique d'extraits audio vers de l'anglais écrit en minuscules.
 Enfin, ce corpus a aussi beaucoup servi pour des modèles Wav2Vec.
 
-## Constitution de mon propre corpus
+### Constitution de mon propre corpus
 
 Le Common Voice est constitué uniquement d'extraits de parole spontanée, j'ai donc pour projet de constituer mon corpus à partir de vidéos YouTube. Pour cela, il faudra que je récupère des URLS ainsi que quelques métadonnées sur les vidéos pour ensuite récupérer l'audio de ces vidéos. 
+
+## TD Cours n°2
+
+### Récupération automatique du corpus
+
+Pour récupérer mon corpus, je travaille à partir de la librairie Python `pytube`, qui me permet à partir du lien d'une playlist youtube de récupérer automatiquement tous les urls de cette playlist.
+J'ai choisi dans ma playlist de prendre des vidéos de Konbini pour plusieurs raisons :
+- Le corpus est propre d'un point de vue de l'enregistrement
+- Le locuteur change à chaque vidéo et son nom est présent dans le titre de la vidéo
+- Le locuteur est généralement une personnalité célèbre, ce qui facilite grandement la recherche d'éventuelles métadonnées
+- La prise de parole est spontanée
+- Il y a assez peu de moment "parasites" (interlocuteur par exemple)
+- Toutes ces vidéos sont sur la même chaîne youtube à l'origine
+
+### Récupération des métadonnées
+
+Concernant la structure finale de mon corpus, je ne peux pas espérer obtenir exactement les mêmes métadonnées que le Mozilla Common Voice, car ce corpus et le mien auront été constitué de manières complètement différentes. Mon corpus de référence étant un corpus participatif, les métadonnées sur les locuteurs ont été données par les volontaires au moment de s'enregister. Etant donné que nous devons quant à nous scrapper le web, je peux obtenir un certain nombre de métadonnées automatiquement, mais pas nécessairement les mêmes.
+
+Voici donc les métadonnées que je peux collecter :
+- Transcription de l'audio
+- Titre de la vidéo
+- Nom du locuteur (à voir)
+- Description de la vidéo
+- Longueur de la vidéo
+- Date de publication
+- Note moyenne sur la vidéo
