@@ -1,5 +1,5 @@
 """
-This modules takes a directory of json files and creates the corresponding csv.
+This module takes a directory of json files and creates the corresponding csv.
 Usage:
 python3 create_csv.py data/metadata
 """
@@ -12,13 +12,13 @@ import json
 
 def create_dataframe(metadata):
     """
-    This function creates the dataframe from a list of json files.
-    Params
-    ------
-    metadata: list of files (str)
-    Returns
-    -------
-    pd.DataFrame
+    Creates a DataFrame from a list of json files.
+
+    Parameters:
+    metadata (list): A list of file paths (str) pointing to JSON files.
+
+    Returns:
+    pd.DataFrame: A DataFrame containing the data extracted from JSON files.
     """
     df = create_dataframe(metadata)
     data = []
@@ -36,6 +36,15 @@ def create_dataframe(metadata):
 
 
 def main():
+    """
+    Main function to execute the script.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
     metadata = glob.glob(f"{sys.argv[1]}/*.json")
     df = create_dataframe(metadata)
     print(df)
@@ -46,3 +55,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit("Il faut un dossier avec des fichiers json en argument.")
     main()
+

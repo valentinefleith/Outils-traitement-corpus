@@ -4,6 +4,15 @@ import whisper
 
 
 def get_urls():
+    """
+    Retrieves video URLs from a specific YouTube playlist.
+
+    Parameters:
+    None
+
+    Returns:
+    list: A list of URLs of videos in the playlist.
+    """
     URL_PLAYLIST = (
         "https://www.youtube.com/playlist?list=PLXizq1Vk0pp9WzRhxLGfxnEuC7MFflZHb"
     )
@@ -14,6 +23,15 @@ def get_urls():
 
 
 def get_captions_from_audio(video_id):
+    """
+    Generates captions from audio of a given video using the Whisper library.
+
+    Parameters:
+    video_id (str): The ID of the YouTube video for which captions are generated.
+
+    Returns:
+    None
+    """
     model = whisper.load_model("large-v2")
     captions = model.transcribe(f"data/audio/{video_id}.mp4")
     transcription_file_timecode = f"data/transcription/{video_id}_timecodes.txt"
@@ -29,6 +47,15 @@ def get_captions_from_audio(video_id):
 
 
 def timecode_managing(seconds):
+    """
+    Formats timecodes from seconds to HH:MM:SS.
+
+    Parameters:
+    seconds (float): Time duration in seconds.
+
+    Returns:
+    str: Timecode in HH:MM:SS format.
+    """
     h = int(seconds // 3600)
     m = int((seconds % 3600) // 60)
     s = int(seconds % 60)
@@ -36,6 +63,15 @@ def timecode_managing(seconds):
 
 
 def download_video(url):
+    """
+    Downloads a video from a given URL, extracts its audio, and generates metadata and captions.
+
+    Parameters:
+    url (str): The URL of the YouTube video to download.
+
+    Returns:
+    None
+    """
     vid = YouTube(url)
     audio = vid.streams.get_audio_only()
     audio.download(output_path="data/audio", filename=f"{vid.video_id}.mp4")
@@ -56,6 +92,15 @@ def download_video(url):
 
 
 def main():
+    """
+    Main function to download videos from a playlist and generate metadata and captions.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
     urls_list = get_urls()
     for url in urls_list:
         download_video(url)
@@ -63,3 +108,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
