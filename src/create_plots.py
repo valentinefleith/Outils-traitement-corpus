@@ -47,6 +47,29 @@ def plot_views_on_length(data):
     plt.ylabel("Nombre de vues")
     plt.show()
 
+def plot_nb_tokens_on_length(data):
+    """
+    Plot the number of views against the length of the video.
+
+    Parameters:
+    - data (DataFrame): A DataFrame containing video metadata, including the columns "nb_tokens" and "length" representing the number of tokens and the length of each video, respectively.
+
+    Returns:
+    - None
+    """
+    data = data[["nb_tokens", "length"]].sort_values(by=["length"])
+    nb_tokens = np.array(data["nb_tokens"])
+    length = np.array(data["length"])
+    X_Y_Spline = make_interp_spline(length, nb_tokens)
+    X_ = np.linspace(length.min(), length.max(), 500)
+    Y_ = X_Y_Spline(X_)
+    plt.plot(X_, Y_)
+    plt.title("Nombre de tokens en fonction de la longueur de la video")
+    plt.xlabel("Longueur de la video")
+    plt.ylabel("Nombre de tokens")
+    plt.show()
+
+
 def plot_zipf(data):
     """
     Plot Zipf's Law based on the transcriptions of the videos.
@@ -80,9 +103,10 @@ def main():
     transcriptions = json_data["transcription"].tolist()
     json_data["nb_tokens"] = [len(tokenize(transcription)) for transcription in transcriptions]
     # print(json_data)
-    plot_views_on_length(json_data)
+    # plot_views_on_length(json_data)
     # plot_nb_tokens_transcr(json_data)
     # plot_zipf(json_data)
+    plot_nb_tokens_on_length(json_data)
 
 if __name__ == "__main__":
     main()
