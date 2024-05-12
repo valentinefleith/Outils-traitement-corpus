@@ -7,6 +7,7 @@ import collections
 
 from create_csv import create_dataframe
 from utils import tokenize, smoothify, get_total_string, percentify
+from scipy.interpolate import make_interp_spline
 
 def plot_nb_tokens_transcr(data):
     plt.bar(np.arange(len(data)), np.array(data["nb_tokens"]), color ='maroon', width = 0.4)
@@ -19,7 +20,10 @@ def plot_views_on_length(data):
     data = data[["views", "length"]].sort_values(by=["length"])
     views = np.array(data["views"])
     length = np.array(data["length"])
-    plt.plot(length, views)
+    X_Y_Spline = make_interp_spline(length, views)
+    X_ = np.linspace(length.min(), length.max(), 500)
+    Y_ = X_Y_Spline(X_)
+    plt.plot(X_, Y_)
     plt.title("Nombre de vues en fonction de la longueur de la video")
     plt.xlabel("Longueur de la video")
     plt.ylabel("Nombre de vues")
@@ -49,9 +53,9 @@ def main():
     transcriptions = json_data["transcription"].tolist()
     json_data["nb_tokens"] = [len(tokenize(transcription)) for transcription in transcriptions]
     # print(json_data)
-    # plot_views_on_length(json_data)
+    plot_views_on_length(json_data)
     # plot_nb_tokens_transcr(json_data)
-    plot_zipf(json_data)
+    # plot_zipf(json_data)
 
 if __name__ == "__main__":
     main()
