@@ -20,7 +20,6 @@ def create_dataframe(metadata):
     Returns:
     pd.DataFrame: A DataFrame containing the data extracted from JSON files.
     """
-    df = create_dataframe(metadata)
     data = []
     for file in metadata:
         with open(file, "r") as f:
