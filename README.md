@@ -88,3 +88,13 @@ J'ai donc utilisé `whisper` et son model `utlarge-v2` pour obtenir une transcri
 ### Ce dépôt
 
 J'ai poussé sur ce dépôt un échantillon de 7 vidéos afin que vous puissiez voir la structure finale que crée mon script, ainsi que le script python qui génère le corpus. Comme vous pouvez le voir, ce script génère cela à partir d'un unique lien (celui vers la playlist youtube).
+
+
+## TD Cours n°4
+
+Pour ce cours, j'ai realise 3 plots differents sur le corpus :
+- le nombre de vues en fonction de la longueur de la video (courbe)
+- le nombre de tokens par video (barplot)
+- la loi de Zipf
+
+Tous les plots sont disponibles dans le dossier `plots`.

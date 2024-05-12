@@ -10,6 +10,15 @@ from utils import tokenize, smoothify, get_total_string, percentify
 from scipy.interpolate import make_interp_spline
 
 def plot_nb_tokens_transcr(data):
+    """
+    Plot the number of tokens in each transcription.
+
+    Parameters:
+    - data (DataFrame): A DataFrame containing video metadata, including the column "nb_tokens" representing the number of tokens in each transcription.
+
+    Returns:
+    - None
+    """
     plt.bar(np.arange(len(data)), np.array(data["nb_tokens"]), color ='maroon', width = 0.4)
     plt.xlabel("Video index")
     plt.ylabel("Nombre de tokens dans la transcription")
@@ -17,6 +26,15 @@ def plot_nb_tokens_transcr(data):
     plt.show()
 
 def plot_views_on_length(data):
+    """
+    Plot the number of views against the length of the video.
+
+    Parameters:
+    - data (DataFrame): A DataFrame containing video metadata, including the columns "views" and "length" representing the number of views and the length of each video, respectively.
+
+    Returns:
+    - None
+    """
     data = data[["views", "length"]].sort_values(by=["length"])
     views = np.array(data["views"])
     length = np.array(data["length"])
@@ -30,6 +48,15 @@ def plot_views_on_length(data):
     plt.show()
 
 def plot_zipf(data):
+    """
+    Plot Zipf's Law based on the transcriptions of the videos.
+
+    Parameters:
+    - data (DataFrame): A DataFrame containing video metadata, including the column "transcription" representing the transcriptions of each video.
+
+    Returns:
+    - None
+    """
     depth = 100
     text = tokenize(get_total_string(data))
     word_frequencies = collections.Counter(text)
@@ -59,3 +86,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
