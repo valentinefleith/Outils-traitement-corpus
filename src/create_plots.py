@@ -3,13 +3,12 @@ import pandas as pd
 import sys
 import glob
 import numpy as np
+import collections
 
 from create_csv import create_dataframe
-from utils import tokenize
+from utils import tokenize, smoothify, get_total_string, percentify
 
 def plot_nb_tokens_transcr(data):
-    transcriptions = data["transcription"].tolist()
-    data["nb_tokens"] = [len(tokenize(transcription)) for transcription in transcriptions]
     plt.bar(np.arange(len(data)), np.array(data["nb_tokens"]), color ='maroon', width = 0.4)
     plt.xlabel("Video index")
     plt.ylabel("Nombre de tokens dans la transcription")
@@ -26,14 +25,33 @@ def plot_views_on_length(data):
     plt.ylabel("Nombre de vues")
     plt.show()
 
+def plot_zipf(data):
+    depth = 100
+    text = tokenize(get_total_string(data))
+    word_frequencies = collections.Counter(text)
+    top_word_frequencies = word_frequencies.most_common(depth)
+    maxVal = top_word_frequencies[0][1]
+    yAxis = [percentify(top_word_frequencies[i][1], maxVal) for i in range(depth)]
+    x, y = smoothify(yAxis, depth)
+    plt.plot(x, y, label="Corpus", lw=1, alpha=0.5)
+    ziffianCurveValues = [100/i for i in range(1, depth+1)]
+    x, y = smoothify(ziffianCurveValues, depth)
+    plt.plot(x, y, label='Ziffian Curve', ls=':', color='grey')
+    plt.legend()
+    plt.title("Loi de Zipf a partir des transcriptions du corpus audio")
+    plt.show()
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Il faut le dossier `data` en argument.")
     json_files = glob.glob(f"{sys.argv[1]}/metadata/*.json")
     json_data = create_dataframe(json_files)
+    transcriptions = json_data["transcription"].tolist()
+    json_data["nb_tokens"] = [len(tokenize(transcription)) for transcription in transcriptions]
     # print(json_data)
     # plot_views_on_length(json_data)
-    plot_nb_tokens_transcr(json_data)
+    # plot_nb_tokens_transcr(json_data)
+    plot_zipf(json_data)
 
 if __name__ == "__main__":
     main()
