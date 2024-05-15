@@ -1,0 +1,93 @@
+---
+# For reference on dataset card metadata, see the spec: https://github.com/huggingface/hub-docs/blob/main/datasetcard.md?plain=1
+# Doc / guide: https://huggingface.co/docs/hub/datasets-cards
+{}
+---
+
+# Dataset Card for Dataset Name
+
+<!-- Provide a quick summary of the dataset. -->
+
+This dataset card aims to be a base template for new datasets. It has been generated using [this raw template](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/datasetcard_template.md?plain=1).
+
+## Dataset Details
+
+### Dataset Description
+
+<!-- Provide a longer summary of what this dataset is. -->
+Ce dataset regroupe 21 vidéos youtube de la chaîne Konbini. Il contient les enregistrements audio et les transcriptions de chaque vidéo, toujours avec un locuteur différent par vidéo. Une vidéo dure entre 5 et 15min.
+
+- **Curated by:** Valentine Fleith
+- **Funded by [optional]:** Valentine Fleith
+- **Shared by [optional]:** Valentine Fleith
+- **Language(s) (NLP):** Français
+- **License:** MIT/X Consortium Licens
+
+### Dataset Sources [optional]
+
+<!-- Provide the basic links for the dataset. -->
+
+- **Repository:** https://github.com/valentinefleith/Outils-traitement-corpus
+- **Paper [optional]:** [More Information Needed]
+- **Demo [optional]:** [More Information Needed]
+
+## Uses
+
+<!-- Address questions around how the dataset is intended to be used. -->
+ Il peut être utilisé pour des tâches d'ASR ou d'étude sur les retranscriptions. Dans le titre de la vidéo, il y a le nom du locuteur : il est donc possible d'aller manuellement chercher des informations sur les locuteurs. 
+
+## Dataset Structure
+
+<!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
+
+3 dossiers : audio, metadata (fichiers json avec les informations sur chaque extrait), transcription. On a les transcriptions avec et sans timecodes. Chaque fichier porte le nom de l'identifiant de la vidéo.
+
+Aussi présent un data.csv qui regroupe les metadonnées et les transcriptions.
+
+## Dataset Creation
+
+
+### Source Data
+
+<!-- This section describes the source data (e.g. news text and headlines, social media posts, translated sentences, ...). -->
+
+Les vidéos proviennent de la chaîne youtube Konbini. 
+
+#### Data Collection and Processing
+
+<!-- This section describes the data collection and processing process such as data selection criteria, filtering and normalization methods, tools and libraries used, etc. -->
+
+Videos d'interviews où un invité parle. Le dataset a été récupéré avec la librairie python pytube et retranscrit avec l'outil whisper.
+
+#### Who are the source data producers?
+
+<!-- This section describes the people or systems who originally created the data. It should also include self-reported demographic or identity information for the source data creators if this information is available. -->
+
+Valentine Fleith
+
+
+#### Personal and Sensitive Information
+
+<!-- State whether the dataset contains data that might be considered personal, sensitive, or private (e.g., data that reveals addresses, uniquely identifiable names or aliases, racial or ethnic origins, sexual orientations, religious beliefs, political opinions, financial or health data, etc.). If efforts were made to anonymize the data, describe the anonymization process. -->
+
+Seulement données publiques.
+
+## Bias, Risks, and Limitations
+
+<!-- This section is meant to convey both technical and sociotechnical limitations. -->
+
+[More Information Needed]
+
+### Recommendations
+
+<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
+
+Users should be made aware of the risks, biases and limitations of the dataset. More information needed for further recommendations.
+
+## Citation [optional]
+
+<!-- If there is a paper or blog post introducing the dataset, the APA and Bibtex information for that should go in this section. -->
+
+## Dataset Card Contact
+
+valentine.fleith@gmail.com
