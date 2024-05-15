@@ -1,6 +1,7 @@
 from pytube import Playlist, YouTube
 import json
 import whisper
+import os.path
 
 
 def get_urls():
@@ -33,9 +34,11 @@ def get_captions_from_audio(video_id):
     None
     """
     model = whisper.load_model("large-v2")
-    captions = model.transcribe(f"data/audio/{video_id}.mp4")
     transcription_file_timecode = f"data/transcription/{video_id}_timecodes.txt"
     transcription_file = f"data/transcription/{video_id}.txt"
+    if os.path.isfile(transcription_file):
+        return
+    captions = model.transcribe(f"data/audio/{video_id}.mp4")
     with open(transcription_file_timecode, "w", encoding="utf-8") as f:
         for segment in captions["segments"]:
             start_time = timecode_managing(segment["start"])

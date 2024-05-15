@@ -1,0 +1,151 @@
+00:00:00 - 00:00:05:  Hi, Konbini. My name is Luis Fonan, and I'm going to tell you the crazy story of Duolingo.
+00:00:06 - 00:00:11:  Hola, Konbini. Mi nombre es Luis Fonan, y les voy a decir la historia loca de Duolingo.
+00:00:12 - 00:00:18:  We started Duolingo in 2011. I used to be a professor of computer science,
+00:00:18 - 00:00:24:  and I had just gotten a PhD student, who is now my co-founder. His name is Severin.
+00:00:24 - 00:00:27:  We both knew we wanted to do something related to education.
+00:00:27 - 00:00:29:  We wanted to do something where computers would teach people.
+00:00:29 - 00:00:35:  The best subject to start with was to start by teaching languages, and in particular, it's because of English.
+00:00:35 - 00:00:37:  I grew up in a poor country. I grew up in Guatemala.
+00:00:37 - 00:00:41:  A lot of people talk about the different social classes, but I always thought it was the opposite,
+00:00:41 - 00:00:44:  as something that brings inequality, because what happens in practice is that people who have a lot of money
+00:00:44 - 00:00:48:  can buy themselves really good educations, whereas people who don't have very much money, you know,
+00:00:48 - 00:00:52:  don't get very good educations. So I wanted to do something that would give equal access to education to everybody.
+00:00:53 - 00:00:57:  So we combined all of this. We decided to make an app that teaches languages for free.
+00:00:57 - 00:01:01:  Yeah, education has just been very important. I mean, in my case, I grew up in a poor country,
+00:01:01 - 00:01:07:  but I was fortunate that even though I was not from a rich family, I received a rich person's education,
+00:01:07 - 00:01:11:  because I'm an only child, and my mother spent all her money on my education.
+00:01:11 - 00:01:18:  The first language that I remember trying to learn was actually French. I failed at learning French.
+00:01:18 - 00:01:24:  The reason I wanted to learn French was in high school. I had a crush on a girl who was taking French,
+00:01:24 - 00:01:29:  and I took the class, but I failed at both the class and the girl. I failed.
+00:01:29 - 00:01:33:  Yeah, when we started working on it, it took us about a year to finally launch it,
+00:01:33 - 00:01:39:  and what we decided to do is we were going to teach three languages at the time we launched.
+00:01:39 - 00:01:42:  We were going to teach English, we were going to teach Spanish, and German.
+00:01:42 - 00:01:46:  And the reason for Spanish is because I speak Spanish, and the reason for German is because
+00:01:46 - 00:01:51:  Severin's native language is German. I made the first Spanish course, and Severin made the first German course.
+00:01:51 - 00:01:55:  And while we were developing it, we were trying to learn each other's language,
+00:01:55 - 00:01:59:  but we actually ran into a problem before we launched, which is that we would go into the office,
+00:01:59 - 00:02:04:  and I would ask him, did you do your Spanish lesson? And he would say, no, so boring.
+00:02:04 - 00:02:07:  And the same thing was happening to me. Learning German was just very boring.
+00:02:07 - 00:02:12:  And this is when we realized something that I think even to this day, you know, we think,
+00:02:12 - 00:02:17:  which is the hardest thing about learning something by yourself or learning a language by yourself is staying motivated.
+00:02:17 - 00:02:21:  What we started doing is we started turning Duolingo as much into a game as possible,
+00:02:21 - 00:02:26:  so that we could motivate ourselves. And so by the time we launched, Duolingo was not only a free way to learn languages,
+00:02:26 - 00:02:30:  but it was also a fun way to learn languages, and that's probably why we grew so much.
+00:02:35 - 00:02:40:  Yeah, early on we had a lot of success because I was fortunate that I was invited to give a TED Talk,
+00:02:40 - 00:02:42:  and I gave a TED Talk, and it was watched by a lot of people.
+00:02:42 - 00:02:46:  And in the TED Talk, I said, we're about to launch this thing called Duolingo.
+00:02:46 - 00:02:49:  It hasn't yet been launched. It's called Duolingo.
+00:02:49 - 00:02:56:  And so because of that, by the time, on the day we launched, we already had about half a million registered users.
+00:02:56 - 00:03:02:  It's actually changed a lot. The app has changed a lot from the beginning to where we are today.
+00:03:02 - 00:03:06:  For one, it is a lot more gamified now than it was at the beginning.
+00:03:06 - 00:03:12:  Also, we are a lot better at teaching. I mean, at first, the first courses were made by me.
+00:03:12 - 00:03:16:  I mean, I didn't know how to teach languages. I was a professor, but not in languages.
+00:03:16 - 00:03:23:  I was a professor in computer science. So over time, we started hiring linguists and people with PhDs in second language acquisition.
+00:03:23 - 00:03:25:  And so we became a lot better at teaching languages.
+00:03:25 - 00:03:28:  The thing to know about me is that I'm actually very bad at learning languages.
+00:03:28 - 00:03:30:  My co-founder, Severin, is also bad at learning languages.
+00:03:30 - 00:03:34:  And also, the first eight employees of Duolingo were all bad at learning languages.
+00:03:34 - 00:03:38:  And I think that actually is important. We made a product not for people who are good at learning languages,
+00:03:38 - 00:03:42:  but for the average person. You know, the average person is not good at learning languages.
+00:03:46 - 00:03:51:  You download Duolingo and you use it for, you know, a few minutes per day, 15 minutes a day.
+00:03:51 - 00:03:56:  It's pretty fun to use it. And as you're using it, you're learning a language.
+00:03:56 - 00:03:59:  But you're learning by doing. You don't have to learn a language by reading a lot of grammar or anything.
+00:04:00 - 00:04:03:  You're just learning by doing things. So it's pretty fun.
+00:04:03 - 00:04:07:  And a lot of people who use it, particularly in the United States, we ask them,
+00:04:07 - 00:04:11:  why are you using Duolingo? And they say, well, I used to play a lot of Candy Crush.
+00:04:14 - 00:04:18:  That was a complete waste of time. But now I use Duolingo and it's fun.
+00:04:18 - 00:04:22:  But also, I'm learning a little bit of Spanish or I'm learning a little bit of French.
+00:04:22 - 00:04:24:  We've had critics throughout. I mean, from the beginning.
+00:04:24 - 00:04:28:  And we still have critics that say that you can't really learn a language with an app, etc.
+00:04:28 - 00:04:30:  But the reality is you can learn a language with an app.
+00:04:30 - 00:04:34:  I mean, we have the studies that show that if you use Duolingo,
+00:04:34 - 00:04:38:  you can learn the equivalent of five semesters of university instruction on the language.
+00:04:38 - 00:04:40:  So you can actually learn it. But yeah, people have criticized it.
+00:04:40 - 00:04:43:  The other thing that people have criticized is it doesn't look very serious.
+00:04:43 - 00:04:47:  It looks like a little game. And, you know, people think that education should look serious.
+00:04:47 - 00:04:49:  We don't think that. We think education should be fun.
+00:04:50 - 00:04:55:  On Duolingo, the most learned language is English. About 50% of our users are learning English.
+00:04:55 - 00:04:59:  The second most learned language is Spanish. It's a little under 20% are learning Spanish.
+00:04:59 - 00:05:01:  And the third most learned language is French.
+00:05:01 - 00:05:04:  Over the last few years, the fastest growing language is Korean.
+00:05:04 - 00:05:07:  And it's because of K-pop and K-dramas.
+00:05:07 - 00:05:11:  So every time that a new K-drama comes out, like Squid Game,
+00:05:11 - 00:05:14:  we actually see an increase in people learning Korean.
+00:05:14 - 00:05:18:  Whenever the Ukrainian war started, we saw the number of people learning Ukrainian
+00:05:18 - 00:05:21:  grew by like 6x. It like multiplied by 6.
+00:05:21 - 00:05:24:  Today on Duolingo, you can learn 42 languages.
+00:05:24 - 00:05:26:  But that's if you learn them from English.
+00:05:26 - 00:05:30:  If you learn them from French, you can learn about five languages.
+00:05:30 - 00:05:35:  So we do teach some fictitious languages or, you know, they're called constructed languages.
+00:05:35 - 00:05:37:  We teach High Valyrian from Game of Thrones.
+00:05:37 - 00:05:40:  Duolingo is offering to give fans lessons in High Valyrian
+00:05:40 - 00:05:43:  so they too can speak the words of the legendary dragon lords.
+00:05:43 - 00:05:45:  Dracarys!
+00:05:45 - 00:05:47:  You speak the language.
+00:05:47 - 00:05:49:  We teach Klingon from Star Trek.
+00:05:49 - 00:05:53:  And it started because our own users were asking for us to teach these languages.
+00:05:53 - 00:05:58:  And we actually had the person who created High Valyrian.
+00:05:58 - 00:06:00:  He worked with us to make the High Valyrian course.
+00:06:00 - 00:06:03:  And for Klingon, it turns out there's a lot of experts.
+00:06:03 - 00:06:06:  Klingon call Rojmohwidjh.
+00:06:06 - 00:06:09:  And so we found them on Reddit. They are on Reddit.
+00:06:09 - 00:06:12:  And we found them and they made the course for us.
+00:06:12 - 00:06:15:  And, you know, one interesting thing about both of these languages,
+00:06:15 - 00:06:18:  they are not the least learned languages that we have.
+00:06:18 - 00:06:24:  So there are real languages that have fewer users than High Valyrian.
+00:06:24 - 00:06:30:  For example, I'm pretty sure that Hawaiian, Navajo, I think even Irish
+00:06:30 - 00:06:34:  has fewer users than High Valyrian and Game of Thrones.
+00:06:34 - 00:06:38:  Yeah, as far as we know, there are six people in the Vatican that are learning Latin.
+00:06:38 - 00:06:40:  We don't know who they are.
+00:06:40 - 00:06:43:  We also have ten users in North Korea who are...
+00:06:43 - 00:06:47:  Every day there are ten users from North Korea who are mostly learning English.
+00:06:47 - 00:06:49:  Yeah, we have users in every country in the world.
+00:06:49 - 00:06:53:  Yes, this is our mascot. It's a green owl. His name is Duo.
+00:06:53 - 00:06:59:  He's green because we're playing a joke on our co-founder, on Severin.
+00:06:59 - 00:07:03:  It started because when the design team was starting to draw our mascot,
+00:07:03 - 00:07:05:  they asked for feedback from us.
+00:07:05 - 00:07:08:  And Severin is an engineer. He's a very technical guy.
+00:07:08 - 00:07:11:  And he didn't really care about design. He didn't want to give any feedback.
+00:07:11 - 00:07:15:  And he just said, the only thing I care about is that I hate the color green.
+00:07:15 - 00:07:16:  So please don't use that.
+00:07:16 - 00:07:18:  So we all thought it would be funny to make the owl green.
+00:07:18 - 00:07:21:  And so to this day, Severin still hates the color green.
+00:07:21 - 00:07:23:  And he's the co-founder and CTO of a company.
+00:07:23 - 00:07:27:  Everything is green and we do that just to play a joke on him.
+00:07:27 - 00:07:31:  I mean, we realized very early on that the hardest thing about learning a language by yourself
+00:07:31 - 00:07:34:  is staying motivated. That's the hardest thing.
+00:07:34 - 00:07:37:  It's kind of similar to exercising. The hardest thing is actually exercising.
+00:07:37 - 00:07:39:  What matters the most is that you do it.
+00:07:39 - 00:07:42:  It's kind of similar with learning a language. What matters the most is that you do it.
+00:07:42 - 00:07:45:  We have spent a lot of effort getting people to come back every day.
+00:07:45 - 00:07:49:  Some of the things that we've done over the years, we added a streak.
+00:07:49 - 00:07:53:  We have literally millions of people with a streak longer than a year,
+00:07:53 - 00:07:56:  meaning they have not missed a day in the last year.
+00:07:56 - 00:07:58:  So, you know, streak is very powerful.
+00:07:58 - 00:08:02:  Another thing that has been very powerful are the notifications that we use to get people to come back.
+00:08:02 - 00:08:04:  Not now, Duo.
+00:08:09 - 00:08:13:  And this is why there are a lot of memes on the Internet about the owl kidnapping your family
+00:08:13 - 00:08:17:  or the owl threatening you with a gun unless you do the lessons.
+00:08:25 - 00:08:29:  And, you know, we didn't start those memes. The Internet started those memes.
+00:08:29 - 00:08:33:  But we as a company lean into them. We sometimes make fun of ourselves.
+00:08:33 - 00:08:37:  So we did an April Fool's video one time.
+00:08:37 - 00:08:40:  Were you extorted by an enormous green owl?
+00:08:40 - 00:08:44:  Have you been physically or emotionally injured by Duolingo?
+00:08:46 - 00:08:48:  Yeah, Duolingo is what I'm most proud about.
+00:08:48 - 00:08:52:  I'll tell you what I, the moment that I became very proud.
+00:08:52 - 00:08:58:  A few years ago, I learned two things around the same time that combined made me very proud.
+00:08:58 - 00:09:02:  First is I learned that Duolingo was being used by refugees all over Europe
+00:09:02 - 00:09:04:  to learn the language of the country they had moved to.
+00:09:04 - 00:09:06:  So refugees in Sweden were learning Swedish.
+00:09:06 - 00:09:08:  Refugees in France were learning French, etc.
+00:09:08 - 00:09:13:  The UN was using Duolingo to teach in their refugee camps.
+00:09:13 - 00:09:17:  But around that same time, I also learned that Bill Gates was using Duolingo.
+00:09:17 - 00:09:19:  I believe Bill Gates was for learning French.
+00:09:19 - 00:09:21:  The combination of these two is exactly what made me very proud
+00:09:21 - 00:09:23:  because usually, you know, refugees have no money.
+00:09:23 - 00:09:26:  Bill Gates has, you know, $100 billion.
+00:09:26 - 00:09:30:  And usually, billionaires have much better things than refugees.
+00:09:30 - 00:09:34:  But this is a case where the same method of learning was being used
+00:09:34 - 00:09:37:  by some of the poorest people in the world and some of the richest people in the world.
+00:09:37 - 00:09:39:  So basically, more money could not get you a better education.
+00:09:39 - 00:09:43:  And so that was the moment that I was most proud of.

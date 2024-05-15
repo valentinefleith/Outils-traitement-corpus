@@ -1,0 +1,151 @@
+ Hi, Konbini. My name is Luis Fonan, and I'm going to tell you the crazy story of Duolingo.
+ Hola, Konbini. Mi nombre es Luis Fonan, y les voy a decir la historia loca de Duolingo.
+ We started Duolingo in 2011. I used to be a professor of computer science,
+ and I had just gotten a PhD student, who is now my co-founder. His name is Severin.
+ We both knew we wanted to do something related to education.
+ We wanted to do something where computers would teach people.
+ The best subject to start with was to start by teaching languages, and in particular, it's because of English.
+ I grew up in a poor country. I grew up in Guatemala.
+ A lot of people talk about the different social classes, but I always thought it was the opposite,
+ as something that brings inequality, because what happens in practice is that people who have a lot of money
+ can buy themselves really good educations, whereas people who don't have very much money, you know,
+ don't get very good educations. So I wanted to do something that would give equal access to education to everybody.
+ So we combined all of this. We decided to make an app that teaches languages for free.
+ Yeah, education has just been very important. I mean, in my case, I grew up in a poor country,
+ but I was fortunate that even though I was not from a rich family, I received a rich person's education,
+ because I'm an only child, and my mother spent all her money on my education.
+ The first language that I remember trying to learn was actually French. I failed at learning French.
+ The reason I wanted to learn French was in high school. I had a crush on a girl who was taking French,
+ and I took the class, but I failed at both the class and the girl. I failed.
+ Yeah, when we started working on it, it took us about a year to finally launch it,
+ and what we decided to do is we were going to teach three languages at the time we launched.
+ We were going to teach English, we were going to teach Spanish, and German.
+ And the reason for Spanish is because I speak Spanish, and the reason for German is because
+ Severin's native language is German. I made the first Spanish course, and Severin made the first German course.
+ And while we were developing it, we were trying to learn each other's language,
+ but we actually ran into a problem before we launched, which is that we would go into the office,
+ and I would ask him, did you do your Spanish lesson? And he would say, no, so boring.
+ And the same thing was happening to me. Learning German was just very boring.
+ And this is when we realized something that I think even to this day, you know, we think,
+ which is the hardest thing about learning something by yourself or learning a language by yourself is staying motivated.
+ What we started doing is we started turning Duolingo as much into a game as possible,
+ so that we could motivate ourselves. And so by the time we launched, Duolingo was not only a free way to learn languages,
+ but it was also a fun way to learn languages, and that's probably why we grew so much.
+ Yeah, early on we had a lot of success because I was fortunate that I was invited to give a TED Talk,
+ and I gave a TED Talk, and it was watched by a lot of people.
+ And in the TED Talk, I said, we're about to launch this thing called Duolingo.
+ It hasn't yet been launched. It's called Duolingo.
+ And so because of that, by the time, on the day we launched, we already had about half a million registered users.
+ It's actually changed a lot. The app has changed a lot from the beginning to where we are today.
+ For one, it is a lot more gamified now than it was at the beginning.
+ Also, we are a lot better at teaching. I mean, at first, the first courses were made by me.
+ I mean, I didn't know how to teach languages. I was a professor, but not in languages.
+ I was a professor in computer science. So over time, we started hiring linguists and people with PhDs in second language acquisition.
+ And so we became a lot better at teaching languages.
+ The thing to know about me is that I'm actually very bad at learning languages.
+ My co-founder, Severin, is also bad at learning languages.
+ And also, the first eight employees of Duolingo were all bad at learning languages.
+ And I think that actually is important. We made a product not for people who are good at learning languages,
+ but for the average person. You know, the average person is not good at learning languages.
+ You download Duolingo and you use it for, you know, a few minutes per day, 15 minutes a day.
+ It's pretty fun to use it. And as you're using it, you're learning a language.
+ But you're learning by doing. You don't have to learn a language by reading a lot of grammar or anything.
+ You're just learning by doing things. So it's pretty fun.
+ And a lot of people who use it, particularly in the United States, we ask them,
+ why are you using Duolingo? And they say, well, I used to play a lot of Candy Crush.
+ That was a complete waste of time. But now I use Duolingo and it's fun.
+ But also, I'm learning a little bit of Spanish or I'm learning a little bit of French.
+ We've had critics throughout. I mean, from the beginning.
+ And we still have critics that say that you can't really learn a language with an app, etc.
+ But the reality is you can learn a language with an app.
+ I mean, we have the studies that show that if you use Duolingo,
+ you can learn the equivalent of five semesters of university instruction on the language.
+ So you can actually learn it. But yeah, people have criticized it.
+ The other thing that people have criticized is it doesn't look very serious.
+ It looks like a little game. And, you know, people think that education should look serious.
+ We don't think that. We think education should be fun.
+ On Duolingo, the most learned language is English. About 50% of our users are learning English.
+ The second most learned language is Spanish. It's a little under 20% are learning Spanish.
+ And the third most learned language is French.
+ Over the last few years, the fastest growing language is Korean.
+ And it's because of K-pop and K-dramas.
+ So every time that a new K-drama comes out, like Squid Game,
+ we actually see an increase in people learning Korean.
+ Whenever the Ukrainian war started, we saw the number of people learning Ukrainian
+ grew by like 6x. It like multiplied by 6.
+ Today on Duolingo, you can learn 42 languages.
+ But that's if you learn them from English.
+ If you learn them from French, you can learn about five languages.
+ So we do teach some fictitious languages or, you know, they're called constructed languages.
+ We teach High Valyrian from Game of Thrones.
+ Duolingo is offering to give fans lessons in High Valyrian
+ so they too can speak the words of the legendary dragon lords.
+ Dracarys!
+ You speak the language.
+ We teach Klingon from Star Trek.
+ And it started because our own users were asking for us to teach these languages.
+ And we actually had the person who created High Valyrian.
+ He worked with us to make the High Valyrian course.
+ And for Klingon, it turns out there's a lot of experts.
+ Klingon call Rojmohwidjh.
+ And so we found them on Reddit. They are on Reddit.
+ And we found them and they made the course for us.
+ And, you know, one interesting thing about both of these languages,
+ they are not the least learned languages that we have.
+ So there are real languages that have fewer users than High Valyrian.
+ For example, I'm pretty sure that Hawaiian, Navajo, I think even Irish
+ has fewer users than High Valyrian and Game of Thrones.
+ Yeah, as far as we know, there are six people in the Vatican that are learning Latin.
+ We don't know who they are.
+ We also have ten users in North Korea who are...
+ Every day there are ten users from North Korea who are mostly learning English.
+ Yeah, we have users in every country in the world.
+ Yes, this is our mascot. It's a green owl. His name is Duo.
+ He's green because we're playing a joke on our co-founder, on Severin.
+ It started because when the design team was starting to draw our mascot,
+ they asked for feedback from us.
+ And Severin is an engineer. He's a very technical guy.
+ And he didn't really care about design. He didn't want to give any feedback.
+ And he just said, the only thing I care about is that I hate the color green.
+ So please don't use that.
+ So we all thought it would be funny to make the owl green.
+ And so to this day, Severin still hates the color green.
+ And he's the co-founder and CTO of a company.
+ Everything is green and we do that just to play a joke on him.
+ I mean, we realized very early on that the hardest thing about learning a language by yourself
+ is staying motivated. That's the hardest thing.
+ It's kind of similar to exercising. The hardest thing is actually exercising.
+ What matters the most is that you do it.
+ It's kind of similar with learning a language. What matters the most is that you do it.
+ We have spent a lot of effort getting people to come back every day.
+ Some of the things that we've done over the years, we added a streak.
+ We have literally millions of people with a streak longer than a year,
+ meaning they have not missed a day in the last year.
+ So, you know, streak is very powerful.
+ Another thing that has been very powerful are the notifications that we use to get people to come back.
+ Not now, Duo.
+ And this is why there are a lot of memes on the Internet about the owl kidnapping your family
+ or the owl threatening you with a gun unless you do the lessons.
+ And, you know, we didn't start those memes. The Internet started those memes.
+ But we as a company lean into them. We sometimes make fun of ourselves.
+ So we did an April Fool's video one time.
+ Were you extorted by an enormous green owl?
+ Have you been physically or emotionally injured by Duolingo?
+ Yeah, Duolingo is what I'm most proud about.
+ I'll tell you what I, the moment that I became very proud.
+ A few years ago, I learned two things around the same time that combined made me very proud.
+ First is I learned that Duolingo was being used by refugees all over Europe
+ to learn the language of the country they had moved to.
+ So refugees in Sweden were learning Swedish.
+ Refugees in France were learning French, etc.
+ The UN was using Duolingo to teach in their refugee camps.
+ But around that same time, I also learned that Bill Gates was using Duolingo.
+ I believe Bill Gates was for learning French.
+ The combination of these two is exactly what made me very proud
+ because usually, you know, refugees have no money.
+ Bill Gates has, you know, $100 billion.
+ And usually, billionaires have much better things than refugees.
+ But this is a case where the same method of learning was being used
+ by some of the poorest people in the world and some of the richest people in the world.
+ So basically, more money could not get you a better education.
+ And so that was the moment that I was most proud of.
