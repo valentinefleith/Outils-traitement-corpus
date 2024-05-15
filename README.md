@@ -118,4 +118,4 @@ On voit donc que ces deux variables sont corrélées positivement et que la p-va
 
 La deuxième partie du TP est de split le corpus est test et train. Je n'ai pas enregistré le résultat sur le git pour ne pas avoir trop de corpus sur le dépôt, mais le script qui fait cela est [`split.py`](src/split.py).
 
-
+Après cela, j'ai écrit un script pour diviser le corpus en section en fonction des lignes et créer un fichier son par phrase ainsi que la transcription associée. A nouveau je n'ai pas push le résultat sur le git. 
