@@ -89,6 +89,9 @@ J'ai donc utilisé `whisper` et son model `utlarge-v2` pour obtenir une transcri
 
 J'ai poussé sur ce dépôt un échantillon de 7 vidéos afin que vous puissiez voir la structure finale que crée mon script, ainsi que le script python qui génère le corpus. Comme vous pouvez le voir, ce script génère cela à partir d'un unique lien (celui vers la playlist youtube).
 
+## TD Cours n°3
+
+J'ai créé un csv avec les données qui réunit les métadonnées des fichiers json et les transcriptions. Le script qui réalise cette tâche est [`create_csv.py`](src/create_csv.py) et le csv obtenu est [ici](data/data.csv).
 
 ## TD Cours n°4
 
