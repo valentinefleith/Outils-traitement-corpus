@@ -95,9 +95,27 @@ J'ai créé un csv avec les données qui réunit les métadonnées des fichiers 
 
 ## TD Cours n°4
 
-Pour ce cours, j'ai realise 3 plots differents sur le corpus :
+Pour ce TP, j'ai realisé 4 plots differents sur le corpus :
 - le nombre de vues en fonction de la longueur de la video (courbe)
 - le nombre de tokens par video (barplot)
+- le nombre de tokens par plot en fonction de la longueur de l'enregistrement (courbe)
 - la loi de Zipf
 
-Tous les plots sont disponibles dans le dossier `plots`.
+
+Tous les plots sont disponibles dans le dossier [`plots`](plots).
+
+## TD Cours n°5
+
+J'ai choisi de mesurer la corrélation entre la longueur de la vidéo et le nombre de tokens obtenus pour chaque transcription.
+
+Le programme qui calcule cette corrélation est [`correlation.py`](src/correlation.py).
+
+Le resultat est le suivant : 
+```
+PearsonRResult(statistic=0.9741186978556917, pvalue=9.920797062076906e-14)
+```
+On voit donc que ces deux variables sont corrélées positivement et que la p-value montre que cela est très significatif. Cela est cohérent par rapport à notre corpus et au fait qu'a priori, plus la vidéo sera longue, plus le nombre de phrases sera nombreux. Je n'ai donc pas de traitement supplémentaire à faire pour améliorer la p value.
+
+La deuxième partie du TP est de split le corpus est test et train. Je n'ai pas enregistré le résultat sur le git pour ne pas avoir trop de corpus sur le dépôt, mais le script qui fait cela est [`split.py`](src/split.py).
+
+
