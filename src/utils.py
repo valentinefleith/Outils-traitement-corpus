@@ -44,7 +44,7 @@ def smoothify(yInput, depth):
     """
     x = np.array(range(0, depth))
     y = np.array(yInput)
-    x_smooth = np.linspace(x.min(), x.max(), 600) 
+    x_smooth = np.linspace(x.min(), x.max(), 600)
     spl = make_interp_spline(x, y, k=3)
     y_smooth = spl(x_smooth)
     return x_smooth, y_smooth
