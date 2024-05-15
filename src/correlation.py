@@ -17,7 +17,7 @@ from utils import tokenize
 
 def calculate_correlation(data):
     """
-    Calculate Pearson correlation coefficient between the length of transcriptions 
+    Calculate Pearson correlation coefficient between the length of transcriptions
     and the number of tokens in each transcription.
 
     Parameters:

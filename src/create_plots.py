@@ -20,7 +20,9 @@ def plot_nb_tokens_transcr(data):
     Returns:
     - None
     """
-    plt.bar(np.arange(len(data)), np.array(data["nb_tokens"]), color='maroon', width = 0.4)
+    plt.bar(
+        np.arange(len(data)), np.array(data["nb_tokens"]), color="maroon", width=0.4
+    )
     plt.xlabel("Video index")
     plt.ylabel("Nombre de tokens dans la transcription")
     plt.title("Nombre de tokens par video")
@@ -93,9 +95,9 @@ def plot_zipf(data):
     yAxis = [percentify(top_word_frequencies[i][1], maxVal) for i in range(depth)]
     x, y = smoothify(yAxis, depth)
     plt.plot(x, y, label="Corpus", lw=1, alpha=0.5)
-    ziffianCurveValues = [100/i for i in range(1, depth+1)]
+    ziffianCurveValues = [100 / i for i in range(1, depth + 1)]
     x, y = smoothify(ziffianCurveValues, depth)
-    plt.plot(x, y, label='Ziffian Curve', ls=':', color='grey')
+    plt.plot(x, y, label="Ziffian Curve", ls=":", color="grey")
     plt.legend()
     plt.title("Loi de Zipf a partir des transcriptions du corpus audio")
     plt.show()
@@ -107,13 +109,15 @@ def main():
     json_files = glob.glob(f"{sys.argv[1]}/metadata/*.json")
     json_data = create_dataframe(json_files)
     transcriptions = json_data["transcription"].tolist()
-    json_data["nb_tokens"] = [len(tokenize(transcription)) for transcription in transcriptions]
+    json_data["nb_tokens"] = [
+        len(tokenize(transcription)) for transcription in transcriptions
+    ]
     # print(json_data)
     # plot_views_on_length(json_data)
     # plot_nb_tokens_transcr(json_data)
     # plot_zipf(json_data)
     plot_nb_tokens_on_length(json_data)
 
+
 if __name__ == "__main__":
     main()
-

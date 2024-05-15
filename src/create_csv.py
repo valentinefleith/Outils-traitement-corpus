@@ -54,4 +54,3 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit("Il faut un dossier avec des fichiers json en argument.")
     main()
-

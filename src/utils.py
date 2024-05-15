@@ -3,6 +3,7 @@ from typing import List
 from scipy.interpolate import make_interp_spline
 import numpy as np
 
+
 def tokenize(text: str) -> List[str]:
     """
     Tokenize the input text into a list of words.
@@ -18,6 +19,7 @@ def tokenize(text: str) -> List[str]:
         for token in re.findall(r"\b\w+?\b(?:'|’)?", text)
     ]
 
+
 def percentify(value, max):
     """
     Convert a value to a percentage of the maximum value.
@@ -30,6 +32,7 @@ def percentify(value, max):
     - float: The value as a percentage of the maximum value.
     """
     return round(value / max * 100)
+
 
 def smoothify(yInput, depth):
     """
@@ -49,6 +52,7 @@ def smoothify(yInput, depth):
     y_smooth = spl(x_smooth)
     return x_smooth, y_smooth
 
+
 def get_total_string(dataframe):
     """
     Concatenate all transcriptions in a DataFrame into a single string.
@@ -64,4 +68,3 @@ def get_total_string(dataframe):
     for trans in transcriptions:
         string += trans
     return string
-
