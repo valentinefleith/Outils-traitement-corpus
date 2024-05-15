@@ -9,6 +9,7 @@ from create_csv import create_dataframe
 from utils import tokenize, smoothify, get_total_string, percentify
 from scipy.interpolate import make_interp_spline
 
+
 def plot_nb_tokens_transcr(data):
     """
     Plot the number of tokens in each transcription.
@@ -19,11 +20,12 @@ def plot_nb_tokens_transcr(data):
     Returns:
     - None
     """
-    plt.bar(np.arange(len(data)), np.array(data["nb_tokens"]), color ='maroon', width = 0.4)
+    plt.bar(np.arange(len(data)), np.array(data["nb_tokens"]), color='maroon', width = 0.4)
     plt.xlabel("Video index")
     plt.ylabel("Nombre de tokens dans la transcription")
     plt.title("Nombre de tokens par video")
     plt.show()
+
 
 def plot_views_on_length(data):
     """
@@ -46,6 +48,7 @@ def plot_views_on_length(data):
     plt.xlabel("Longueur de la video")
     plt.ylabel("Nombre de vues")
     plt.show()
+
 
 def plot_nb_tokens_on_length(data):
     """
@@ -95,6 +98,7 @@ def plot_zipf(data):
     plt.title("Loi de Zipf a partir des transcriptions du corpus audio")
     plt.show()
 
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Il faut le dossier `data` en argument.")
@@ -105,8 +109,8 @@ def main():
     # print(json_data)
     # plot_views_on_length(json_data)
     # plot_nb_tokens_transcr(json_data)
-    # plot_zipf(json_data)
-    plot_nb_tokens_on_length(json_data)
+    plot_zipf(json_data)
+    # plot_nb_tokens_on_length(json_data)
 
 if __name__ == "__main__":
     main()
